@@ -47,7 +47,8 @@ int main( void ) {
  * @brief Show array.
  * @param [in] flowerbed Flower bed array.
  * @param [in] flowerbedSize Size of the flower bed.
- * @return Nothing.
+ * @par Returns
+ *    Nothing.
  */
 void Show( const int* flowerbed, const int flowerbedSize ) {
     printf( "\n|" );
@@ -64,7 +65,8 @@ void Show( const int* flowerbed, const int flowerbedSize ) {
  * @param [in] flowerbed Flower bed array.
  * @param [in] flowerbedSize Size of the flower bed.
  * @param [in] n Quantity to place.
- * @return Nothing.
+ * @par Returns
+ *    Nothing.
  */
 void Test( int testNumber, const char* expected, int* flowerbed, int flowerbedSize, int n ) {
     printf( "Test %d (N=%d): %s (Output) -- %s (Expected)\n", testNumber, n,
