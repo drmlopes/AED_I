@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BackendCodeEditorSettings">
+    <option name="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=AD1FA466_002DB6FD_002D5461_002DA236_002D111958870400_002Fd_003Atarefas_002Fd_003Atarefa_005F01_002Fd_003Aaula_002Ff_003Atarefa_005F01_005Faula_002Ec/@EntryIndexedValue" value="ExplicitlyExcluded" type="string" />
+    <option name="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=AD1FA466_002DB6FD_002D5461_002DA236_002D111958870400_002Fd_003Atarefas_002Fd_003Atarefa_005F01_002Fd_003Acasa_002Ff_003Atarefa_005F01_005Fcasa_002Ec/@EntryIndexedValue" value="ExplicitlyExcluded" type="string" />
+    <option name="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=AD1FA466_002DB6FD_002D5461_002DA236_002D111958870400_002Ff_003Amain_002Ec/@EntryIndexedValue" value="ExplicitlyExcluded" type="string" />
     <option name="/Default/CodeStyle/CodeFormatting/CppCodeStyle/BracesInForStatement/@EntryValue" value="Required" type="string" />
     <option name="/Default/CodeStyle/CodeFormatting/CppCodeStyle/BracesInIfStatement/@EntryValue" value="Required" type="string" />
     <option name="/Default/CodeStyle/CodeFormatting/CppCodeStyle/BracesInWhileStatement/@EntryValue" value="Required" type="string" />

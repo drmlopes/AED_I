@@ -21,7 +21,34 @@ return true if n new flowers can be planted in the flowerbed without violating t
 
 **Constraints:**
 
-* ```1 <= flowerbed.length <= 2 * 10⁴```
-* ```flowerbed[i]``` is ```0``` or ```1```.
-* There are no two adjacent flowers in ```flowerbed```.
-* ```0 <= n <= flowerbed.length```
+* `1 <= flowerbed.length <= 2 * 10⁴`
+* `flowerbed[i]` is `0` or `1`.
+* There are no two adjacent flowers in `flowerbed`.
+* `0 <= n <= flowerbed.length`
+
+**Test Cases:**
+
+> **Case 1:**
+>> **Input:** flowerbed = [1,0,0,0,1], n = 1
+>>
+>> **Output:** true
+
+> **Case 2:**
+>> **Input:** flowerbed = [1,0,0,0,1], n = 2
+>> 
+>> **Output:** false
+
+> **Case 3:**
+>> **Input:** flowerbed = [1,0,0,0,0,0,1], n = 1
+>>
+>> **Output:** true
+
+> **Case 4:**
+>> **Input:** flowerbed = [1,0,0,0,0,0,1], n = 2
+>>
+>> **Output:** true
+
+> **Case 5:**
+>> **Input:** flowerbed = [1,0,0,0,0,0,1], n = 3
+>>
+>> **Output:** false
