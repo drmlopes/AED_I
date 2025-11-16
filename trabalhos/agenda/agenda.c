@@ -207,12 +207,15 @@ void AddPerson( void** ppBuffer ) {
     fgets( NAME_PERSON( *ppBuffer ), TAM_STRING, stdin );
     ( NAME_PERSON( *ppBuffer ) )[ strcspn( NAME_PERSON( *ppBuffer ), "\n" ) ] = 0;
 
+    /* Age of person. */
+    *AGE_PERSON( *ppBuffer ) = 0;
+
     do {
         printf( "Enter the person's age: " );
         scanf( "%d", AGE_PERSON( *ppBuffer ) );
         ClearKeyboardBuffer( *ppBuffer );
 
-        if ( *AGE_PERSON( *ppBuffer ) < 0 or *AGE_PERSON( *ppBuffer ) > 120 ) {
+        if ( *AGE_PERSON( *ppBuffer ) <= 0 or *AGE_PERSON( *ppBuffer ) > 120 ) {
             ClearScreen();
             printf( "Error - Invalid age! [%d]\n\n", *AGE_PERSON( *ppBuffer ) );
             PressEnter();
@@ -220,7 +223,7 @@ void AddPerson( void** ppBuffer ) {
 
             printf( "Person's name: %s\n", NAME_PERSON( *ppBuffer ) );
         }
-    } while ( *AGE_PERSON( *ppBuffer ) < 0 or *AGE_PERSON( *ppBuffer ) > 120 );
+    } while ( *AGE_PERSON( *ppBuffer ) <= 0 or *AGE_PERSON( *ppBuffer ) > 120 );
 
     printf( "Enter the person's email: " );
     fgets( EMAIL_PERSON( *ppBuffer ), TAM_STRING, stdin );
